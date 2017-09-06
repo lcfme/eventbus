@@ -26,7 +26,7 @@
     }
   }
   if (!!noGlobal) {
-    global.EventBus = EventBus
+    global['EventBus'] = EventBus
   }
   return EventBus
 })
